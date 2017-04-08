@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57F393E3-931F-445E-8A3E-BAA5A770F554}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z00_OnlyOneProject", "Z00_OnlyOneProject", "{D8FBBDBC-33BA-4115-BBE5-A884772573A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "WpfApplication\WpfApplication.csproj", "{E391EFE6-6EFA-4F5E-90A6-AE42510C6E65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E391EFE6-6EFA-4F5E-90A6-AE42510C6E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E391EFE6-6EFA-4F5E-90A6-AE42510C6E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E391EFE6-6EFA-4F5E-90A6-AE42510C6E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E391EFE6-6EFA-4F5E-90A6-AE42510C6E65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E391EFE6-6EFA-4F5E-90A6-AE42510C6E65} = {D8FBBDBC-33BA-4115-BBE5-A884772573A0}
+	EndGlobalSection
+EndGlobal

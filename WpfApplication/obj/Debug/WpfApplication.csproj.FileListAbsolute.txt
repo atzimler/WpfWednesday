@@ -1,0 +1,14 @@
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\bin\Debug\WpfApplication.exe.config
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\bin\Debug\WpfApplication.exe
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\bin\Debug\WpfApplication.pdb
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\WpfApplication.csprojResolveAssemblyReference.cache
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\MainWindow.g.cs
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\App.g.cs
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.cache
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\WpfApplication_MarkupCompile.lref
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\MainWindow.baml
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\WpfApplication.g.resources
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\WpfApplication.Properties.Resources.resources
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\WpfApplication.csproj.GenerateResource.Cache
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\WpfApplication.exe
+D:\Users\Hijaszu\Projects\ATZ\WpfWednesday\WpfApplication\obj\Debug\WpfApplication.pdb
