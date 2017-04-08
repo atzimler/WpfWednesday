@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z00_OnlyOneProject", "Z00_OnlyOneProject", "{D8FBBDBC-33BA-4115-BBE5-A884772573A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "WpfApplication\WpfApplication.csproj", "{E391EFE6-6EFA-4F5E-90A6-AE42510C6E65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "Z00_OnlyOneProject\WpfApplication\WpfApplication.csproj", "{E391EFE6-6EFA-4F5E-90A6-AE42510C6E65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
