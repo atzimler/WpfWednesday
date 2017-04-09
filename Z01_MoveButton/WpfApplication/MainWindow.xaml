@@ -19,7 +19,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <lib:AquaPurpleButton Grid.Row="1" Grid.Column="1">My Button</lib:AquaPurpleButton>
+        <lib:PurpleButton Grid.Row="1" Grid.Column="1">My Button</lib:PurpleButton>
     </Grid>
 </Window>
 
