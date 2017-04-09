@@ -94,8 +94,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PurpleButtonLib\PurpleButtonLib.csproj">
-      <Project>{37728571-A73A-4841-BF97-A941DF735108}</Project>
+    <ProjectReference Include="..\PurpleButtonLib\PurpleButtonLib.csproj">
+      <Project>{37728571-a73a-4841-bf97-a941df735108}</Project>
       <Name>PurpleButtonLib</Name>
     </ProjectReference>
   </ItemGroup>

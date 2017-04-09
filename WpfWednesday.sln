@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z01_MoveButton", "Z01_MoveB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "Z01_MoveButton\WpfApplication\WpfApplication.csproj", "{6C02436E-C01C-41C2-8018-A94DB6D9012C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurpleButtonLib", "PurpleButtonLib\PurpleButtonLib.csproj", "{37728571-A73A-4841-BF97-A941DF735108}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurpleButtonLib", "Z01_MoveButton\PurpleButtonLib\PurpleButtonLib.csproj", "{37728571-A73A-4841-BF97-A941DF735108}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
