@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D7BF247-9EE3-4894-8774-40452EB659EF}</ProjectGuid>
+    <ProjectGuid>{8D9D595C-9D89-46F5-9562-638F5ACC180A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WpfApplication</RootNamespace>
     <AssemblyName>WpfApplication</AssemblyName>
@@ -54,10 +54,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="AquaPurpleButton.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -65,9 +61,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AquaPurpleButton.xaml.cs">
-      <DependentUpon>AquaPurpleButton.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -102,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PurpleButtonLib\PurpleButtonLib.csproj">
-      <Project>{37728571-a73a-4841-bf97-a941df735108}</Project>
+      <Project>{37137750-ef08-4336-8581-ba6687c2082d}</Project>
       <Name>PurpleButtonLib</Name>
     </ProjectReference>
   </ItemGroup>
