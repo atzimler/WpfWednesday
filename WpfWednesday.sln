@@ -46,7 +46,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "Z05_Deriv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z06_DependencyProperties", "Z06_DependencyProperties", "{8A9D23AC-B3C8-47E6-AD17-A815F94099DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyProperties", "DependencyProperties\DependencyProperties.csproj", "{808F1153-61B3-4DB0-B167-A2ED1610C91E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyProperties", "Z06_DependencyProperties\DependencyProperties\DependencyProperties.csproj", "{808F1153-61B3-4DB0-B167-A2ED1610C91E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
