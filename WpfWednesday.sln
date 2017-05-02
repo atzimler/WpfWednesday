@@ -52,6 +52,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z07_ReadOnlyDependencyPrope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadOnlyDependencyProperties", "Z07_ReadOnlyDependencyProperties\ReadOnlyDependencyProperties\ReadOnlyDependencyProperties.csproj", "{02541D10-8FE1-41C9-9F08-D9D7D1210CB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z08_AttachingEventHandlers", "Z08_AttachingEventHandlers\Z08_AttachingEventHandlers.csproj", "{655DAC79-AE80-41D2-A69B-4A9BEEFF43E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +116,10 @@ Global
 		{02541D10-8FE1-41C9-9F08-D9D7D1210CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02541D10-8FE1-41C9-9F08-D9D7D1210CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02541D10-8FE1-41C9-9F08-D9D7D1210CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655DAC79-AE80-41D2-A69B-4A9BEEFF43E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655DAC79-AE80-41D2-A69B-4A9BEEFF43E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655DAC79-AE80-41D2-A69B-4A9BEEFF43E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655DAC79-AE80-41D2-A69B-4A9BEEFF43E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
