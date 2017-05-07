@@ -1,0 +1,25 @@
+﻿<Window x:Class="Z09_ObservableCollections.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Z09_ObservableCollections"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <ListBox Grid.Row="0" Grid.Column="0" ItemsSource="{Binding ListItems}"></ListBox>
+        <ListBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding ObservableCollectionItems}"></ListBox>
+        <Button Grid.Row="1" Grid.Column="0" x:Name="ListButton">Add Item to the List</Button>
+        <Button Grid.Row="1" Grid.Column="1" x:Name="ObservableCollectionButton">Add Item to the Observable Collection</Button>
+    </Grid>
+</Window>
