@@ -20,15 +20,19 @@ namespace Z11_AttachedProperties
         private static void UpdateSide(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             var obj = (FrameworkElement)d;
+
+            // Finding the LeftRightLayoutControl to which this object belongs to either directly or indirectly.
             var parent = LogicalTreeHelper.GetParent(obj);
             while (parent != null && parent.GetType() != typeof(LeftRightLayoutControl))
             {
                 parent = LogicalTreeHelper.GetParent(parent);
             }
-
             var layoutControl = (LeftRightLayoutControl)parent;
+
+            // Detaching the object from the current logical parent.
             ((StackPanel)obj.Parent).Children.Remove(obj);
 
+            // Reattaching the object to the correct logical parent based on the new value.
             var value = (Side)e.NewValue;
             if (value == Side.Left)
             {
