@@ -14,7 +14,7 @@ namespace Z11_AttachedProperties
             None,
             Left,
             Right
-        };
+        }
         public static readonly DependencyProperty SideProperty = DependencyProperty.RegisterAttached(nameof(Side), typeof(Side), typeof(LeftRightLayoutControl), new PropertyMetadata(Side.None, UpdateSide));
 
         private static void UpdateSide(DependencyObject d, DependencyPropertyChangedEventArgs e)
