@@ -1,0 +1,14 @@
+﻿<Window x:Class="Z11_AttachedProperties.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Z11_AttachedProperties"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <local:LeftRightLayoutControl>
+        <Button local:LeftRightLayoutControl.Side="Left">On the left</Button>
+        <Button local:LeftRightLayoutControl.Side="Right">On the right</Button>
+        <Button local:LeftRightLayoutControl.Side="Left">On the left again</Button>
+    </local:LeftRightLayoutControl>
+</Window>
