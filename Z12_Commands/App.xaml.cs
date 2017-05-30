@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Z09_ObservableCollections
+namespace Z12_Commands
 {
     /// <summary>
     /// Interaction logic for App.xaml

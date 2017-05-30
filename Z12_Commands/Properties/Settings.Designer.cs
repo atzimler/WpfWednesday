@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Z10_BindingFromCode.Properties
+namespace Z12_Commands.Properties
 {
 
 
